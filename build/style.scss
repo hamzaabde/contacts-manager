@@ -1,0 +1,10 @@
+@import 'config';
+@import 'util';
+
+body {
+	background-color: $bg-color;
+}
+
+h1 {
+	color: $text-color;
+}

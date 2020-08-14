@@ -1,0 +1,25 @@
+{
+  "name": "contacts-manager",
+  "version": "1.0.0",
+  "description": "this app stores and retrieves contacts from a server using ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzaabde/contacts-manager.git"
+  },
+  "keywords": [
+    "contacts",
+    "contacts-app",
+    "contacts-manager",
+    "phonebook"
+  ],
+  "author": "Hamsa Abdirashid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamzaabde/contacts-manager/issues"
+  },
+  "homepage": "https://github.com/hamzaabde/contacts-manager#readme"
+}
