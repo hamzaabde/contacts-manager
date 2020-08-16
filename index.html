@@ -3,10 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=viewport-width, initial-scale=1">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>Contacts Manager</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 <body>
-	<h1>this text is colored</h1>
+	<div class="container w-100 h-100 bg-dark text-light">
+		<div class="container pb-4 mt-2">
+			<div class="container">
+				<h1 class="text-center py-4">Contacts Manager</h1>
+				<p class="text-center mb-5">Contacts Manager helps you organize your contacts phone numbers and 
+				details in a neat and concise way.</p>
+			</div>
+			<div class="container mx-auto px-auto">
+				<form action="get" target="#">
+					<div class="form-group w-25">
+						<label for="email">Enter email</label>
+						<input type="email" id="email" class="form-control">
+					</div>
+					<div class="form-group w-25">
+						<label for="password">Enter password</label>
+						<input type="password" id="password" class="form-control">
+					</div>
+					<button type="submit" class="btn btn-primary">submit</button>
+				</form>
+			</div>
+		</div>		
+	</div>
 </body>
 </html>

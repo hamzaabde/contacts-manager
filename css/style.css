@@ -1,9 +1,16 @@
 body {
-  background-color: #005c91;
+  background-color: #adc6ed;
 }
 
 h1 {
-  color: #d1ccb4;
+  color: #d3eaed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */
